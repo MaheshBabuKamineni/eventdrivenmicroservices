@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/section3/eazy-bom/pom.xml" />
         <option value="$PROJECT_DIR$/section3/eurekaserver/pom.xml" />
         <option value="$PROJECT_DIR$/section3/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section4/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section4/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section4/cards/pom.xml" />
       </list>
     </option>
   </component>

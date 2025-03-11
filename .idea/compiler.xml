@@ -2,18 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaserver" />
         <module name="gatewayserver" />
-        <module name="cards" />
         <module name="common" />
+        <module name="cards (1)" />
+        <module name="accounts (2)" />
+        <module name="cards (2)" />
         <module name="loans" />
-        <module name="accounts" />
+        <module name="accounts (1)" />
+        <module name="eurekaserver (2)" />
         <module name="customer" />
+        <module name="eurekaserver (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accounts" target="20" />
+      <module name="cards" target="20" />
+      <module name="eurekaserver" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
